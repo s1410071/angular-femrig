@@ -12,11 +12,7 @@ export class ProductListComponent {
 
   number:number = 5;
 
-  products:Product = {
-    name:"太郎",
-    price:400,
-    description:"説明文"
-  };
+  products:Product[] = products
 
   share() {
     window.alert('The product has been shared!');

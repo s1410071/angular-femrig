@@ -1,5 +1,5 @@
 export class Product{
-  name;
-  price;
-  description;
+  name! : string;
+  price! : number;
+  description! : string;
 }
